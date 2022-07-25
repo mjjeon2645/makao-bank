@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(11, 90, 77);
+    height: 4em;
+    padding-left: 20em;
+}
+
+header h1 img {
+    
+    width: 1.2em;
+}
+
+header nav li {
+    display: inline-block;
+    font-weight: lighter;
+    padding-left: 3em;
+}
