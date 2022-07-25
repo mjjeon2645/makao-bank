@@ -1,0 +1,22 @@
+:root {
+    /* root에는 뭐가 들어갈까? */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+body {
+    background-color: rgb(16, 117, 98);
+    background-image: url(/images/wave.svg);
+    background-size: cover;
+}
