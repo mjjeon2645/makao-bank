@@ -1,0 +1,75 @@
+main .contents {
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+    padding-left: 10em;
+}
+
+main .contents img {
+    height: 600px;
+    align-self: flex-end;
+}
+
+article, img {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+article {
+    background-color: white;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 5em;
+    padding-left: 5em;
+    width: 700px;
+    height: 1100px;
+    border-radius: .5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h2, p {
+    line-height: 2em;
+}
+
+article p {
+    font-size: 1.2em;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 1em;
+    height: 2.5em;
+    border-radius: 0.3em;
+    border-right-color: rgb(225, 225, 225);
+    border-left-color: rgb(225, 225, 225);
+    border-top-color: rgb(225, 225, 225);
+    border-bottom-color: rgb(225, 225, 225);
+    border-width: thin;
+}
+
+form button {
+    border: none;
+    height: 2.4em;
+    font-size: 1em;
+    color: white;
+    border-radius: .3em;
+    background-color: rgb(16,117,98);
+}
+
+form button:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+form button:active {
+    color: black;
+}
