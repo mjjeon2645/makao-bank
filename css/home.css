@@ -1,0 +1,68 @@
+main {
+    min-width: 1024px;
+}
+
+main h2 {
+    font-size: 2.5em;
+    line-height: 1.3em;
+    margin-bottom: .8em;
+    width: 100%;
+    min-width: 500px;
+    color: white; 
+}
+
+main h2 strong {
+    font-size: 1em;
+    display: block;
+}
+
+main article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 1em;
+    width: 65%;
+    min-width: 1024px;
+    max-width: 1440px;
+    height: 100%;
+}
+
+main .decoration {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    width: 76vh;
+    height: 51vh;
+    transform: translate3d(0, -50%, 0);
+    background: url(../images/saving.png) no-repeat 0 50%;
+    background-size: contain;
+}
+
+main .navigation {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3em;
+}
+
+main a {
+    display: inline-block;
+    background-color: rgb(11, 90, 77);
+    color: white;
+    border-radius: 2em;
+    width: 10rem;
+    padding: 1.3em;
+    text-align: center;
+    text-shadow: 10px 0px 30px rgb(26, 26, 26);
+    margin: 1em;
+}
+
+main a:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+main a:active {
+    color: black;
+}
