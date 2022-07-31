@@ -19,17 +19,15 @@ article {
     background-color: white;
     margin-left: 5em;
     margin-right: 5em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-right: 5em;
-    padding-left: 5em;
-    width: 700px;
+    padding: 2em 5em;;
+    min-width: 600px;
     height: 1100px;
     border-radius: .5em;
 }
 
 h2 {
     font-size: 2em;
+    width: 100%;
 }
 
 h2, p {

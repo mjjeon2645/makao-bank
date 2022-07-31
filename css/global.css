@@ -1,7 +1,3 @@
-:root {
-    /* what should i do */
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,6 +13,6 @@ a {
 
 body {
     background-color: rgb(16, 117, 98);
-    background-image: url(/images/wave.svg);
+    background-image: url(../images/wave.svg);
     background-size: cover;
 }
