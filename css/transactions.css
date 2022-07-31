@@ -1,28 +1,20 @@
 main .contents {
-    display: flex;
-    justify-content: center;
     padding-top: 5em;
     padding-left: 10em;
 }
 
-main .contents img {
-    height: 600px;
-    align-self: flex-end;
-}
-
-article, img {
-    justify-content: center;
-    align-items: flex-end;
-}
-
 article {
+    position: absolute;
+    top: 20%;
+    left: 33%;
     background-color: white;
     margin-left: 5em;
     margin-right: 5em;
-    padding: 2em 5em;;
-    min-width: 600px;
-    height: 1100px;
+    padding: 2em 5em;
+    min-width: 400px;
+    height: 70%;
     border-radius: .5em;
+    z-index: 10;
 }
 
 h2 {
@@ -35,4 +27,20 @@ h2, p {
 
 article p {
     font-size: 1.2em;
+}
+
+main .contents .man {
+    position: absolute;
+    top: 40%;
+    right:65%;
+    height: 50%;
+    z-index: 1;
+}
+
+main .contents .woman {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    height: 50%;
+    z-index: 1;
 }
